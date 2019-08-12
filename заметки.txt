@@ -1,0 +1,2 @@
+sliceline - директория где будет развернут проект
+npx create-react-app sliceline
