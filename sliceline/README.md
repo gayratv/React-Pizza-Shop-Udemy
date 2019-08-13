@@ -1,4 +1,7 @@
-#  © created by react.school
+NOTE: This project is just reference for the Firebase section of the course. 
+It will not run unless you've configured Firebase as the lectures describe.
+
+© made by react.school
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

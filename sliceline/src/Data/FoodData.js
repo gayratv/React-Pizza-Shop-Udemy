@@ -64,5 +64,3 @@ export const foods = foodItems.reduce((res, food) => {
   res[food.section].push(food);
   return res;
 }, {});
-
-//  © created by react.school
