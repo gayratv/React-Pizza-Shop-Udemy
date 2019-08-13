@@ -34,35 +34,17 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-database.js"></script>
+<!--    &lt;!&ndash; The core Firebase JS SDK is always required and must be listed first &ndash;&gt;-->
+<!--    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>-->
+<!--&lt;!&ndash;    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-auth.js"></script>&ndash;&gt;-->
+<!--    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-database.js"></script>-->
+
+<!--    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>-->
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
          https://firebase.google.com/docs/web/setup#config-web-app -->
 
-    <script>
-      // Your web app's Firebase configuration
 
-
-      var firebaseConfig = {
-        apiKey: "AIzaSyCV0n7Wj6LxCbi500G_1ohF3A5ws3JmYcs",
-        authDomain: "react-pizza-shop-udemy.firebaseapp.com",
-        databaseURL: "https://react-pizza-shop-udemy.firebaseio.com",
-        projectId: "react-pizza-shop-udemy",
-        storageBucket: "",
-        messagingSenderId: "588701957763",
-        appId: "1:588701957763:web:92a6effdf7ef7d9d"
-      };
-
-      // Initialize Firebase
-      if(!firebaseConfig){
-        alert('This project is just for reference, it will not run unless you configure firebase following the lectures');
-      }else {
-        firebase.initializeApp(firebaseConfig);
-
-      }
-    </script>
   </body>
 </html>
