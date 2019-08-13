@@ -1,0 +1,51 @@
+npm install -g firebase-tools
+firebase login
+firebase init (hosting)
+
+
+
+
+
+
+
+
+
+
+Скопируйте и вставьте эти скрипты в конец тега <body> перед сервисами Firebase:
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCV0n7Wj6LxCbi500G_1ohF3A5ws3JmYcs",
+    authDomain: "react-pizza-shop-udemy.firebaseapp.com",
+    databaseURL: "https://react-pizza-shop-udemy.firebaseio.com",
+    projectId: "react-pizza-shop-udemy",
+    storageBucket: "",
+    messagingSenderId: "588701957763",
+    appId: "1:588701957763:web:92a6effdf7ef7d9d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCV0n7Wj6LxCbi500G_1ohF3A5ws3JmYcs",
+  authDomain: "react-pizza-shop-udemy.firebaseapp.com",
+  databaseURL: "https://react-pizza-shop-udemy.firebaseio.com",
+  projectId: "react-pizza-shop-udemy",
+  storageBucket: "",
+  messagingSenderId: "588701957763",
+  appId: "1:588701957763:web:92a6effdf7ef7d9d"
+};
+
+
+**********************
+CDN
